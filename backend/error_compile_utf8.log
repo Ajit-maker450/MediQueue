@@ -1,0 +1,37 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.project:healthcare-backend >-------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ healthcare-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ healthcare-backend ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/balkr/Downloads/healthcare-backend/healthcare-backend/src/main/java/com/project/healthcare_backend/HealthcareBackendApplication.java:[7,60] package org.springframework.boot.autoconfigure.jdbc does not exist
+[ERROR] /C:/Users/balkr/Downloads/healthcare-backend/healthcare-backend/src/main/java/com/project/healthcare_backend/HealthcareBackendApplication.java:[8,63] package org.springframework.boot.autoconfigure.orm.jpa does not exist
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.025 s
+[INFO] Finished at: 2026-04-08T09:43:43+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project healthcare-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/balkr/Downloads/healthcare-backend/healthcare-backend/src/main/java/com/project/healthcare_backend/HealthcareBackendApplication.java:[7,60] package org.springframework.boot.autoconfigure.jdbc does not exist
+[ERROR] /C:/Users/balkr/Downloads/healthcare-backend/healthcare-backend/src/main/java/com/project/healthcare_backend/HealthcareBackendApplication.java:[8,63] package org.springframework.boot.autoconfigure.orm.jpa does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
